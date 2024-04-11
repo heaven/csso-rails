@@ -7,6 +7,7 @@
 
 console = {
   log: function(){},
+  warn: function(){},
   error: function(txt){
     throw txt;
   }
